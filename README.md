@@ -7,7 +7,7 @@ iOS 自动打包脚本 并且自动拉取git提交记录 并通知到企业微�
 <img src="https://i.postimg.cc/m2Xg9tQV/17964cc4-b185-4ed8-9254-1a20d1d4bad0.png" width="633" >
 
 ### 2.配置参数
-- 1.3个plist文件分别配置 你项目的`Bundle id` 和 `证书的profile`
+- 1.分别配置3个plist文件： 你项目的`Bundle id`  和  `证书的profile`
 <img src="https://i.postimg.cc/zBZcPF17/878dbd6d-39d7-4808-8ee3-da7e6110e33a.png" >
 
 - 2.配置shell.sh参数：
@@ -51,4 +51,4 @@ echo "build number increase"
 - 3.sh shell.sh
 
 ### 6.打包完成效果如下：
-<img src="https://i.postimg.cc/cJvJkNNR/3955c30f-9923-4182-9a07-46dea7bc7e87.png" width="633" >
+<img src="https://i.postimg.cc/cJvJkNNR/3955c30f-9923-4182-9a07-46dea7bc7e87.png" >
