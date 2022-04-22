@@ -72,7 +72,7 @@ fi
 
 echo "请输入拉取git提交记录前多少条？默认3条"
 read count
-if ([[ $count == 0 ]]); then
+if ([[ !$count ]]); then
 count=3
 fi
 
